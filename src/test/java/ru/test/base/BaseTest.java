@@ -32,9 +32,9 @@ public class BaseTest {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "Redmi Note 7");
-        capabilities.setCapability("platformVersion", "10");
-        capabilities.setCapability("udid", "deb7845");
+        capabilities.setCapability("deviceName", "Pixel_2");
+        capabilities.setCapability("platformVersion", "9");
+        capabilities.setCapability("udid", "emulator-5554");
         capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("app",
                 "D:\\Programm\\Android\\ADB\\platform-tools\\Android-NativeDemoApp-0.2.1.apk");
